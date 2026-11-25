@@ -1,0 +1,9 @@
+THREAT HUNTING - THREE STYLES
+Hypothesis-based: encoded PowerShell events
+  {'time': '09:01', 'host': 'WS-01', 'user': 'alice', 'event': 'powershell encoded command', 'src_ip': '198.51.100.7', 'bytes': 1200}
+  {'time': '09:05', 'host': 'WS-01', 'user': 'alice', 'event': 'powershell encoded command', 'src_ip': '198.51.100.7', 'bytes': 1400}
+Intelligence-based: known IOC 198.51.100.7
+  {'time': '09:01', 'host': 'WS-01', 'user': 'alice', 'event': 'powershell encoded command', 'src_ip': '198.51.100.7', 'bytes': 1200}
+  {'time': '09:05', 'host': 'WS-01', 'user': 'alice', 'event': 'powershell encoded command', 'src_ip': '198.51.100.7', 'bytes': 1400}
+Analytics-based: outbound bytes > 100000
+  {'time': '09:07', 'host': 'SRV-01', 'user': 'svc', 'event': 'large outbound transfer', 'src_ip': '203.0.113.44', 'bytes': 900000}

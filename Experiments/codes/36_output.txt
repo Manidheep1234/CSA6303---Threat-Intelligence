@@ -1,0 +1,4 @@
+COMPLIANCE STANDARD CLASSIFIER
+Describe the system or data: Likely applicable: PCI-DSS
+Scores: {'PCI-DSS': 2, 'HIPAA': 0, 'GDPR': 0, 'SOX': 0}
+Note: preliminary keyword suggestion, not legal compliance advice.
