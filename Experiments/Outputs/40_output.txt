@@ -1,0 +1,4 @@
+SECURITY TOOL RECOMMENDER
+Describe your security task: Recommended tool(s): Nmap
+Keyword scores: {'Nmap': 2, 'Wireshark': 0, 'Burp Suite': 0, 'Wazuh': 0, 'Splunk': 0, 'VeraCrypt': 0, 'YARA': 0}
+Recommendations are educational and depend on task context.

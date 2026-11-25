@@ -1,0 +1,8 @@
+CONTINUOUS LOGIN MONITOR (SIMULATED EVENT STREAM)
+1. alice 10.0.0.5 SUCCESS  normal
+2. bob 10.0.0.8 SUCCESS  normal
+3. alice 203.0.113.9 FAILED  ALERT: new/unrecognized source IP
+4. alice 203.0.113.9 FAILED  ALERT: new/unrecognized source IP, repeated failed logins
+5. admin 203.0.113.9 FAILED  ALERT: new/unrecognized source IP
+6. alice 203.0.113.9 SUCCESS  ALERT: new/unrecognized source IP, success after repeated failures
+Monitoring simulation complete.

@@ -1,0 +1,6 @@
+CIA SECURITY PROPERTY AUDIT
+Data is encrypted at rest: FAIL [Confidentiality]
+File hashes are verified: PASS [Integrity]
+Backup service is available: FAIL [Availability]
+MFA protects account access: PASS [Confidentiality]
+Violated CIA principle(s): Availability, Confidentiality

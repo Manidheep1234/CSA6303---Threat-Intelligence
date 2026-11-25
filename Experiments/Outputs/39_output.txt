@@ -1,0 +1,5 @@
+THREAT INTELLIGENCE PLATFORM - IOC CORRELATION
+Normalized IOC: {'type': 'domain', 'value': 'bad.example.com', 'source': 'training-feed'}
+Normalized IOC: {'type': 'ip', 'value': '203.0.113.77', 'source': 'training-feed'}
+Normalized IOC: {'type': 'sha256', 'value': 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa', 'source': 'training-feed'}
+ALERT: IOC match found: {'timestamp': '2026-11-23T09:00:00Z', 'event': 'DNS query', 'indicator': 'bad.example.com', 'host': 'WS-01'}

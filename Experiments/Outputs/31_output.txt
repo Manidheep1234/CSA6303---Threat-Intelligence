@@ -1,0 +1,5 @@
+PACKET FILTER FIREWALL - FIRST MATCH WINS / DEFAULT DENY
+{'src': '10.0.0.5', 'protocol': 'TCP', 'port': 443} -> DENY (Default-deny policy (no rule matched))
+{'src': '203.0.113.9', 'protocol': 'UDP', 'port': 53} -> DENY (Block all traffic from untrusted host)
+{'src': '198.51.100.8', 'protocol': 'TCP', 'port': 22} -> DENY (Default-deny policy (no rule matched))
+Ordering demonstration: ('ALLOW', 'Allow all DNS') versus ('DENY', 'Block all traffic from untrusted host')

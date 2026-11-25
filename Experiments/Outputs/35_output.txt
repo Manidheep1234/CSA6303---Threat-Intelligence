@@ -1,0 +1,10 @@
+LEAST PRIVILEGE ACCESS AUDIT
+maya (Analyst)
+  Excess permissions: delete_users
+  Missing required: None
+arun (Developer)
+  Excess permissions: None
+  Missing required: None
+sara (HR)
+  Excess permissions: view_alerts
+  Missing required: None
